@@ -107,3 +107,9 @@ To simply run
 ```
 python3 good_client_krishnan.py --ip $proxy_server_ip --backend_ip $backend_server_ip --backend_port $backend_port --num1 8.0 --num2 4.0
 ```
+
+## To create a backend server
+
+```
+nc -l -k $port
+```
